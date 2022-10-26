@@ -14,10 +14,6 @@
         <groupId>io.micrometer</groupId>
         <artifactId>micrometer-registry-prometheus</artifactId>
     </dependency>
-    <dependency>
-        <groupId>org.projectlombok</groupId>
-        <artifactId>lombok</artifactId>
-    </dependency>
 </dependencies>
 <dependencyManagement>
     <dependencies>
@@ -52,4 +48,3 @@ spring:
 
 ![image-20221026101622036](./assets/image-20221026101622036.png)
 
-集成完成。
