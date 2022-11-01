@@ -8,12 +8,20 @@
       "enabled": true
     }
   },
+    
+  // docker数据目录
   "data-root": "/var/lib/docker",
   "experimental": false,
   "features": {
     "buildkit": true
   },
-  "insecure-registries": [],
+  
+  // 私有Registry地址
+  "insecure-registries": [
+      
+  ],
+    
+  // 镜像加速地址
   "registry-mirrors": [
     "https://registry.docker-cn.com",
     "https://registry.cn-hangzhou.aliyuncs.com",
@@ -21,4 +29,3 @@
   ]
 }
 ```
-
