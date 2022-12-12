@@ -31,17 +31,17 @@
 
 下面是代码的演示效果：
 
-![image-20221212214714247](C:\Users\Micheal\Desktop\v-if 和 v-show 指令\assets\image-20221212214714247.png)
+![image-20221212214714247](./assets/image-20221212214714247.png)
 
 然后我们把 v-if 的值改为 `false` ，看看效果如何。
 
-![image-20221212214733950](C:\Users\Micheal\Desktop\v-if 和 v-show 指令\assets\image-20221212214733950.png)
+![image-20221212214733950](./assets/image-20221212214733950.png)
 
 可以看到，`我是 v-if 指令` 这个元素并不在 DOM 树上，所以在界面上看不到这个元素。
 
 然后我们把 v-show 的值改为 `false`，看看效果如何。
 
-![image-20221212215111459](C:\Users\Micheal\Desktop\v-if 和 v-show 指令\assets\image-20221212215111459.png) 
+![image-20221212215111459](./assets/image-20221212215111459.png) 
 
 可以看到，`我是 v-show 指令` 这个元素已经加载到 DOM 树上了。但这个元素上被添加了一个值为 `display: none` 的内联样式，所以在界面上没有渲染出来。
 
@@ -83,7 +83,7 @@
 
  操作过程如下：
 
-![12月12日](C:\Users\Micheal\Desktop\v-if 和 v-show 指令\assets\12月12日.gif)
+![12月12日](./assets/12月12日.gif)
 
 
 
@@ -138,7 +138,7 @@ if (value == 0){
 
 我在 `v-else-if` 和 `v-else` 之间加了一个 div 对分支进行阻断。效果是这样的：
 
-![2022-12-12 22-43-48](C:\Users\Micheal\Desktop\v-if 和 v-show 指令\assets\2022-12-12 22-43-48.gif)
+![2022-12-12 22-43-48](./assets/2022-12-12 22-43-48.gif)
 
 
 
